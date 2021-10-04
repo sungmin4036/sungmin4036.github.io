@@ -42,11 +42,17 @@
            <ul>
               {% for category in site.categories %}
                   {% if category[0] == "security_cilgy" %}
-                      <li><a href="/categories/security_ca" class="">정보보안 실기({{category[1].size}})</a></li>
+                      <li><a href="/categories/Security_Cilgy_Ca" class="">정보보안 실기({{category[1].size}})</a></li>
                   {% endif %}
               {% endfor %}
           </ul>
-            
+           <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "UnityDocs" %}
+                        <li><a href="/categories/Security-Docs" class="">정보보안 문서({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>  
         
   </ul>
 </nav>
