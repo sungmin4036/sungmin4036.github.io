@@ -130,11 +130,19 @@
         <span class="nav__sub-title">security</span>
             <ul>
                 {% for category in site.categories %}
-                    {% if category[0] == "security" %}
-                        <li><a href="/categories/security" class="">정보보안 필기({{category[1].size}})</a></li>
+                    {% if category[0] == "security_filgy" %}
+                        <li><a href="/categories/security_filgy_ca" class="">정보보안 필기({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
+             <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "security_cilgy" %}
+                        <li><a href="/categories/security_ca" class="">정보보안 실기({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+            
         
   </ul>
 </nav>
