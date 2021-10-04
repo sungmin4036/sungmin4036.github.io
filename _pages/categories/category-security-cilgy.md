@@ -1,7 +1,7 @@
 ---
-title: "정보 보안 문서들"
+title: "정보보안기사 실기"
 layout: archive
-permalink: categories/Security_Docs_Ca
+permalink: categories/Security_Cilgy_Ca
 author_profile: true
 sidebar_main: true
 ---
@@ -10,5 +10,5 @@ sidebar_main: true
 
 ***
 
-{% assign posts = site.categories.Security_UnityDocs %}
+{% assign posts = site.categories['Security_Cilgy'] %}
 {% for post in posts %} {% include archive-single2.html type=page.entries_layout %} {% endfor %}
