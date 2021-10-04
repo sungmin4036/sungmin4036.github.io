@@ -131,7 +131,7 @@
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "security_filgy" %}
-                        <li><a href="/categories/security_filgy_ca" class="">정보보안 필기({{category[1].size}})</a></li>
+                        <li><a href="/categories/Security_Filgy_Ca" class="">정보보안 필기({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
