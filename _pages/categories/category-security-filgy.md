@@ -10,5 +10,5 @@ sidebar_main: true
 
 ***
 
-{% assign posts = site.categories['security_filgy'] %}
+{% assign posts = site.categories['Security_Filgy_Ca'] %}
 {% for post in posts %} {% include archive-single2.html type=page.entries_layout %} {% endfor %}
