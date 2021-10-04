@@ -31,9 +31,7 @@
                     {% endif %}
                 {% endfor %}
             </ul>
-
-            
-        <span class="nav__sub-title">security</span>
+        <span class="nav__sub-title">Security</span>
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "security_filgy" %}
@@ -41,13 +39,13 @@
                     {% endif %}
                 {% endfor %}
             </ul>
-             <ul>
-                {% for category in site.categories %}
-                    {% if category[0] == "security_cilgy" %}
-                        <li><a href="/categories/security_ca" class="">정보보안 실기({{category[1].size}})</a></li>
-                    {% endif %}
-                {% endfor %}
-            </ul>
+           <ul>
+              {% for category in site.categories %}
+                  {% if category[0] == "security_cilgy" %}
+                      <li><a href="/categories/security_ca" class="">정보보안 실기({{category[1].size}})</a></li>
+                  {% endif %}
+              {% endfor %}
+          </ul>
             
         
   </ul>
