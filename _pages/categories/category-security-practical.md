@@ -1,7 +1,7 @@
 ---
-title: "정보보안기사 필기"
+title: "정보보안기사 실기"
 layout: archive
-permalink: categories/Security_Filgy_Ca
+permalink: categories/Security_Practical_Ca
 author_profile: true
 sidebar_main: true
 ---
@@ -10,5 +10,5 @@ sidebar_main: true
 
 ***
 
-{% assign posts = site.categories['Security_Filgy'] %}
+{% assign posts = site.categories['Security_Practical'] %}
 {% for post in posts %} {% include archive-single2.html type=page.entries_layout %} {% endfor %}

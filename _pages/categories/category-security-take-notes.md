@@ -1,7 +1,7 @@
 ---
-title: "정보보안기사 실기"
+title: "정보보안기사 필기"
 layout: archive
-permalink: categories/Security_Cilgy_Ca
+permalink: categories/Security_Take_Notes_Ca
 author_profile: true
 sidebar_main: true
 ---
@@ -10,5 +10,5 @@ sidebar_main: true
 
 ***
 
-{% assign posts = site.categories['Security_Cilgy'] %}
+{% assign posts = site.categories['Security_Take_Notes'] %}
 {% for post in posts %} {% include archive-single2.html type=page.entries_layout %} {% endfor %}

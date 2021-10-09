@@ -34,21 +34,21 @@
         <span class="nav__sub-title">Security</span>
             <ul>
                 {% for category in site.categories %}
-                    {% if category[0] == "Security_Filgy" %}
-                        <li><a href="/categories/Security_Filgy_Ca" class="">정보보안 필기({{category[1].size}})</a></li>
+                    {% if category[0] == "Security_Take_Notes" %}
+                        <li><a href="/categories/Security_Take_Notes_Ca" class="">정보보안 필기({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
            <ul>
               {% for category in site.categories %}
-                  {% if category[0] == "Security_Cilgy" %}
-                      <li><a href="/categories/Security_Cilgy_Ca" class="">정보보안 실기({{category[1].size}})</a></li>
+                  {% if category[0] == "Security_Practical" %}
+                      <li><a href="/categories/Security_Practical_Ca" class="">정보보안 실기({{category[1].size}})</a></li>
                   {% endif %}
               {% endfor %}
           </ul>
            <ul>
                 {% for category in site.categories %}
-                    {% if category[0] == "Security_UnityDocs" %}
+                    {% if category[0] == "Security_Docs" %}
                         <li><a href="/categories/Security_Docs_Ca" class="">정보보안 문서({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
